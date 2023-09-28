@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 400px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.wrapper_numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+  border: 3px solid rgb(41, 80, 219);
+  padding: 10px;
+}
+
+.wrapper_button {
+  padding: 10px;
+  width: 300px;
+  border: 3px solid rgb(41, 80, 219);
+}
+
+.inpMaxValue {
+  margin-left: 10px;
+}
+
+.inpStartValue {
+  margin-left: 8px;
+}
